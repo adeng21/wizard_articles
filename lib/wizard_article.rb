@@ -10,7 +10,8 @@ class WizardArticle
   end
 
   def to_csv_array
-    [@title, @author, @article]
+    [title, author, article]
 
   end
 end
+
