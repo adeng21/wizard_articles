@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Submit an Article on Wizardry</title>
+    <link rel="stylesheet" href="home.css" />
+  </head>
+
+  <body>
+
+
+  <form action='/create-article' method='post'>
+    <div>
+      <label for="article_title">
+          New Article Title:
+      </label>
+      <input type="text" id="article_title" name="article_title" />
+
+    </div>
+
+
+    <div>
+      <label for="article_author">
+          Author:
+      </label>
+      <input type="text" id="article_author" name="article_author" />
+    </div>
+
+    <div>
+      <label for="article_body">
+          Article:
+      </label>
+      <textarea id="article_body" rows="10" cols="40" name="article_body" ></textarea>
+    </div>
+
+    <div>
+        <input type="submit" />
+    </div>
+  </form>
+
+    <h2> <a href="/article-summary"> Article Summary
+    </h2>
+
+  </body>
+</html>
