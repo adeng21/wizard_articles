@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -6,12 +7,12 @@
   </head>
 
   <body>
-    <h1><%= @article_title%></h1>
+    <h1><%= @article_contents[0]%></h1>
 
-    <h3>By <%= @author%></h3>
+    <h3>By <%= @article_contents[1]%></h3>
 
     <p>
-      <%= @body%>
+      <%= @article_contents[2]%>
     </p>
 
     <h3><a href="/article-summary"> Article Summaries

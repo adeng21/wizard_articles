@@ -10,8 +10,9 @@
 
     <ul>
       <% @articles_csv.each do |article| %>
-      <li><a href="/<%=article%>"> <%= article %></li>
+      <li><a href="/<%=article.title%>"> <%= article.title %></li>
       <% end %>
+
     </ul>
 
 
